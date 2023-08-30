@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.cyclingTour.mapper.ChallengeMapper">
+
+    <select id="queryList" resultType="com.cyclingTour.entity.ChallengeDetails">
+        SELECT
+            c.id AS id,
+            t.route_name AS routeName,
+            t.route_image_url AS routeImageUrl,
+            t.route_details AS routeDetails,
+            u.username,
+            u.phone,
+            u.avatar
+        FROM
+            challenge c
+                JOIN
+            trip_routes t ON c.trip_id = t.id
+                JOIN
+            user u ON c.user_id = u.id;
+    </select>
+
+</mapper>
