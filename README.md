@@ -1,7 +1,4 @@
 
-# SpringBoot vue开发的骑行行记录挑战项目，闲时开发的仍有许多需要完善
-# 接毕业设计 课程设计 等 QQ 3170540355
-# 在线体验地址 http://47.111.26.194:8085/index
 首次加载比较慢
 ![image](https://github.com/314love/CyclingTour/assets/106265888/7f4b3466-857e-4422-8741-702ad378fc27)
 ![image](https://github.com/314love/CyclingTour/assets/106265888/10e0c061-bfb3-409f-80bf-f6ae8a8a8301)
